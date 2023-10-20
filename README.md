@@ -4,12 +4,12 @@
 
 |Documentation|Packages|Showcase|
 |-----|-----|-----|
-|[Project Overview](docs/overview)|[DockerHub Api Image](https://hub.docker.com/repository/docker/qbituniverse/titanic-ai-api)|
-|[Project Description](/description)|[DockerHub Webapp Image](https://hub.docker.com/repository/docker/qbituniverse/titanic-ai-webapp)|[Gallery](/gallery)|
-|[R Model Code Overview](/model)|||
-|[C# Webapp Code Overview](/webapp)|||
-|[Development Process](/development)|||
-|[Deployment Process](/deployment)|||
+|[Project Overview](/docs/overview.md)|[DockerHub Api Image](https://hub.docker.com/repository/docker/qbituniverse/titanic-ai-api)|
+|[Project Description](/docs/description.md)|[DockerHub Webapp Image](https://hub.docker.com/repository/docker/qbituniverse/titanic-ai-webapp)|[Gallery](/docs/gallery.md)|
+|[R Model Code Overview](/docs/model.md)|||
+|[C# Webapp Code Overview](/docs/webapp.md)|||
+|[Development Process](/docs/development.md)|||
+|[Deployment Process](/docs/deployment.md)|||
 
 ### Try titanic-ai Now
 
