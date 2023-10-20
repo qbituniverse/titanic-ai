@@ -1,0 +1,7 @@
+namespace: #{titanic-ai.webapp.namespace}#
+name: #{titanic-ai.webapp.name}#
+image: #{titanic-ai.webapp.image}#
+host: #{titanic-ai.webapp.host}#
+configuration:
+  Environment: #{titanic-ai.webapp.configuration.Environment}#
+  BaseUri: #{titanic-ai.webapp.configuration.BaseUri}#
