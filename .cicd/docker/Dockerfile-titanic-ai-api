@@ -9,6 +9,6 @@ RUN R -e "install.packages(c('gmodels', 'e1071', 'caret', 'caretEnsemble', 'C50'
 RUN rm -rf /usr/lib/R/library && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 COPY /src/model/code/ /code/
-COPY /src/model/models/titanic-ai_model.rds /models/
+COPY /src/model/models/titanic_ai_model.rds /models/
 
 CMD ["Rscript", "/code/build/api.R"]
