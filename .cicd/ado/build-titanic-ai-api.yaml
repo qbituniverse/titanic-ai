@@ -6,7 +6,7 @@ trigger:
     include:
     - .cicd/docker/Dockerfile-titanic-ai-api
     - .cicd/ado/build-titanic-ai-api.yaml
-    - src/model/models/titanic-ai_model.rds
+    - src/model/models/titanic_ai_model.rds
 
 pr: none
 
