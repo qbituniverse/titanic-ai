@@ -1,0 +1,4 @@
+namespace: "titanic-ai"
+name: "titanic-ai-api"
+image: "qbituniverse/titanic-ai-api:latest"
+host: "api.titanic-ai.localhost"
