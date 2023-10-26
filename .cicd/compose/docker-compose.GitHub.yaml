@@ -21,7 +21,6 @@ services:
       - api
     container_name: titanic-ai-webapp
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
       - WebApp__AiApi__BaseUri=http://titanic-ai-api:8000
     ports:
       - 8010:80

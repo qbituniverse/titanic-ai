@@ -53,7 +53,7 @@ Then use the commands below to start **titanic-ai** up and use it.
 
 ```bash
 # start up titanic-ai
-docker-compose up
+docker compose up
 
 # titanic-ai Webapp
 start http://localhost:8010
@@ -62,7 +62,7 @@ start http://localhost:8010
 start http://localhost:8011/__docs__/
 
 # finish and clean up titanic-ai
-docker-compose down
+docker compose down
 ```
 
 #### Option 2: Docker Run
