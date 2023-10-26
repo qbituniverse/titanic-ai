@@ -54,6 +54,7 @@ require(RWeka, lib.loc = lib_path)
 require(nnet, lib.loc = lib_path)
 require(kernlab, lib.loc = lib_path)
 require(naivebayes, lib.loc = lib_path)
+# "fastAdaboost" appears to be archived: https://cran.r-project.org/web/packages/fastAdaboost/index.html
 require(fastAdaboost, lib.loc = lib_path)
 
 #################################################################################

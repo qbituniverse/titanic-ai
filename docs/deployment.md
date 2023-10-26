@@ -8,10 +8,10 @@ Location: **.cicd/compose** and **.cicd/compose/cicd-compose.sh**
 
 ```bash
 # using GitHub local source code
-docker-compose -f .cicd/compose/docker-compose.GitHub.yaml up
+docker compose -f .cicd/compose/docker-compose.GitHub.yaml up
 
 # using DockerHub image repository
-docker-compose -f .cicd/compose/docker-compose.DockerHub.yaml up
+docker compose -f .cicd/compose/docker-compose.DockerHub.yaml up
 ```
 
 ### Launch
@@ -24,10 +24,10 @@ start http://localhost:8010
 
 ```bash
 # using GitHub local source code
-docker-compose -f .cicd/compose/docker-compose.GitHub.yaml down
+docker compose -f .cicd/compose/docker-compose.GitHub.yaml down
 
 # using DockerHub image repository
-docker-compose -f .cicd/compose/docker-compose.DockerHub.yaml down
+docker compose -f .cicd/compose/docker-compose.DockerHub.yaml down
 ```
 
 ## Kubernetes
